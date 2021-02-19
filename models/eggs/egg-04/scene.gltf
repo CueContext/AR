@@ -1,0 +1,753 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.4.40",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_lights_punctual"
+    ],
+    "extensionsRequired" : [
+        "KHR_lights_punctual"
+    ],
+    "extensions" : {
+        "KHR_lights_punctual" : {
+            "lights" : [
+                {
+                    "color" : [
+                        1,
+                        1,
+                        1
+                    ],
+                    "intensity" : 10,
+                    "type" : "point",
+                    "name" : "Light"
+                },
+                {
+                    "color" : [
+                        1,
+                        1,
+                        1
+                    ],
+                    "intensity" : 5,
+                    "type" : "point",
+                    "name" : "Light.001"
+                },
+                {
+                    "color" : [
+                        1,
+                        1,
+                        1
+                    ],
+                    "intensity" : 10,
+                    "type" : "point",
+                    "name" : "Light.002"
+                },
+                {
+                    "color" : [
+                        1,
+                        1,
+                        1
+                    ],
+                    "intensity" : 10,
+                    "type" : "point",
+                    "name" : "Light.003"
+                },
+                {
+                    "color" : [
+                        1,
+                        1,
+                        1
+                    ],
+                    "intensity" : 5,
+                    "type" : "point",
+                    "name" : "Light.004"
+                },
+                {
+                    "color" : [
+                        1,
+                        1,
+                        1
+                    ],
+                    "intensity" : 5,
+                    "type" : "point",
+                    "name" : "Light.005"
+                },
+                {
+                    "color" : [
+                        1,
+                        1,
+                        1
+                    ],
+                    "intensity" : 5,
+                    "type" : "point",
+                    "name" : "Light.006"
+                },
+                {
+                    "color" : [
+                        1,
+                        1,
+                        1
+                    ],
+                    "intensity" : 5,
+                    "type" : "point",
+                    "name" : "Light.007"
+                }
+            ]
+        }
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                6,
+                8,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19,
+                21,
+                23
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Mesh_0"
+        },
+        {
+            "mesh" : 1,
+            "name" : "Mesh_1"
+        },
+        {
+            "mesh" : 2,
+            "name" : "Mesh_2"
+        },
+        {
+            "children" : [
+                0,
+                1,
+                2
+            ],
+            "name" : "Node_3"
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "EasterEgg..Lobj.obj.cleaner.materialmerger.gles",
+            "translation" : [
+                -2.633389949798584,
+                -2.6333909034729004,
+                -3.310606002807617
+            ]
+        },
+        {
+            "children" : [
+                4
+            ],
+            "name" : "RootNode (model correction matrix)"
+        },
+        {
+            "children" : [
+                5
+            ],
+            "name" : "RootNode (gltf orientation matrix)",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "scale" : [
+                0.6178669929504395,
+                0.6178669929504395,
+                0.6178669929504395
+            ],
+            "translation" : [
+                0.11348709464073181,
+                0.4442192316055298,
+                0.1695612370967865
+            ]
+        },
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 0
+                }
+            },
+            "name" : "Light_Orientation",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "children" : [
+                7
+            ],
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "scale" : [
+                0.6178669929504395,
+                0.6178669333457947,
+                0.6178670525550842
+            ],
+            "translation" : [
+                2.9812543392181396,
+                3.3361945152282715,
+                -0.6398752927780151
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.358891487121582,
+                4.958309173583984,
+                6.925790786743164
+            ]
+        },
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 1
+                }
+            },
+            "name" : "Light.001_Orientation",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "children" : [
+                10
+            ],
+            "name" : "Light.001",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "scale" : [
+                0.6178669929504395,
+                0.6178669333457947,
+                0.6178670525550842
+            ],
+            "translation" : [
+                -1.920076847076416,
+                3.402348518371582,
+                -0.9650665521621704
+            ]
+        },
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 2
+                }
+            },
+            "name" : "Light.002_Orientation",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "children" : [
+                12
+            ],
+            "name" : "Light.002",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "scale" : [
+                0.6178669929504395,
+                0.6178669333457947,
+                0.6178670525550842
+            ],
+            "translation" : [
+                0.42874282598495483,
+                0.3306633234024048,
+                -0.031017273664474487
+            ]
+        },
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 3
+                }
+            },
+            "name" : "Light.003_Orientation",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "children" : [
+                14
+            ],
+            "name" : "Light.003",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "scale" : [
+                0.6178669929504395,
+                0.6178669333457947,
+                0.6178670525550842
+            ],
+            "translation" : [
+                0.5760940313339233,
+                3.5245590209960938,
+                3.041273832321167
+            ]
+        },
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 4
+                }
+            },
+            "name" : "Light.004_Orientation",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "children" : [
+                16
+            ],
+            "name" : "Light.004",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "scale" : [
+                0.6178669929504395,
+                0.6178669333457947,
+                0.6178670525550842
+            ],
+            "translation" : [
+                -2.2643251419067383,
+                -0.18859954178333282,
+                2.3297812938690186
+            ]
+        },
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 5
+                }
+            },
+            "name" : "Light.005_Orientation",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "children" : [
+                18
+            ],
+            "name" : "Light.005",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "scale" : [
+                0.6178669929504395,
+                0.6178669333457947,
+                0.6178670525550842
+            ],
+            "translation" : [
+                1.8384678363800049,
+                -0.6463596820831299,
+                -2.3352420330047607
+            ]
+        },
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 6
+                }
+            },
+            "name" : "Light.006_Orientation",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "children" : [
+                20
+            ],
+            "name" : "Light.006",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "scale" : [
+                0.6178669929504395,
+                0.6178669333457947,
+                0.6178670525550842
+            ],
+            "translation" : [
+                2.2349069118499756,
+                -0.9715557098388672,
+                2.157658576965332
+            ]
+        },
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 7
+                }
+            },
+            "name" : "Light.007_Orientation",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "children" : [
+                22
+            ],
+            "name" : "Light.007",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "scale" : [
+                0.6178669929504395,
+                0.6178669333457947,
+                0.6178670525550842
+            ],
+            "translation" : [
+                -2.341381788253784,
+                -0.26568910479545593,
+                -2.1785459518432617
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Scene_-_Root",
+            "normalTexture" : {
+                "index" : 0,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "metallicRoughnessTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Mesh_1",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Mesh_2",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Scene_-_Root_normal",
+            "uri" : "Scene_-_Root_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Scene_-_Root_baseColor",
+            "uri" : "Scene_-_Root_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Scene_-_Root_metallicRoughness",
+            "uri" : "Scene_-_Root_metallicRoughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 2991,
+            "max" : [
+                5.266780853271484,
+                5.266780853271484,
+                7.183012962341309
+            ],
+            "min" : [
+                0,
+                0,
+                0
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 2991,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 2991,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 12213,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 2949,
+            "max" : [
+                5.246755599975586,
+                5.246755599975586,
+                7.162806034088135
+            ],
+            "min" : [
+                0.020025014877319336,
+                0.020025014877319336,
+                0.02006697654724121
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 2949,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 2949,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 12066,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 12243,
+            "max" : [
+                5.264697074890137,
+                5.264697074890137,
+                7.183012962341309
+            ],
+            "min" : [
+                0.0020830631256103516,
+                0.002084016799926758,
+                0.47850990295410156
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 12243,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 12243,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 12243,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 35892,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 35892,
+            "byteOffset" : 35892
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23928,
+            "byteOffset" : 71784
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24426,
+            "byteOffset" : 95712
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 35388,
+            "byteOffset" : 120140
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 35388,
+            "byteOffset" : 155528
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23592,
+            "byteOffset" : 190916
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24132,
+            "byteOffset" : 214508
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 146916,
+            "byteOffset" : 238640
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 146916,
+            "byteOffset" : 385556
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 97944,
+            "byteOffset" : 532472
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24486,
+            "byteOffset" : 630416
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9986
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 654904,
+            "uri" : "scene.bin"
+        }
+    ]
+}
